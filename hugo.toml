@@ -6,11 +6,12 @@ theme = 'PaperMod'
 [params.homeInfoParams]
     Title = "你好，我是赵伟栋 👋"
     Content = """
-    **CS 本科在读 | 专注游戏开发与人工智能**
-    
+    ##CS 本科在读 | 专注游戏开发与人工智能##
 
-    - 🎮 擅长 C++, C#, Unity 引擎开发与物理渲染
-    - 🤖 研究兴趣：强化学习 (RL) 与 游戏 AI 决策系统
+    - 🎮 擅长 C++, C#, Unity & UE 引擎开发
+    - 💻 课程包括：计算机图形学，游戏开发等
+    - 🤖 研究兴趣：LLM 与 游戏 AI 系统
+    - 🏫 南方科技大学 22级 / NUS NGNE 26-27级
     - 💡 正在寻找 2027 届游戏/算法类实习
     
     欢迎阅读我的项目深度复盘与技术笔记。
@@ -35,7 +36,3 @@ theme = 'PaperMod'
     name = "📄 个人简历"
     url = "/resume"
     weight = 30
-[[menu.main]]
-    name = "📊 归档"
-    url = "/archives"
-    weight = 40
