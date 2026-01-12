@@ -1,4 +1,41 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Zhao Weidong's Home Page'
 theme = 'PaperMod'
+
+[params.homeInfoParams]
+    Title = "你好，我是赵伟栋 👋"
+    Content = """
+    **CS 本科在读 | 专注游戏开发与人工智能**
+    
+
+    - 🎮 擅长 C++, C#, Unity 引擎开发与物理渲染
+    - 🤖 研究兴趣：强化学习 (RL) 与 游戏 AI 决策系统
+    - 💡 正在寻找 2027 届游戏/算法类实习
+    
+    欢迎阅读我的项目深度复盘与技术笔记。
+    """
+
+[[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/WDongZ"
+[[params.socialIcons]]
+    name = "email"
+    url = "mailto:505314385@qq.com"
+
+[[menu.main]]
+    name = "🔍 项目展示"
+    url = "/projects"
+    weight = 10
+[[menu.main]]
+    name = "📝 技术博客"
+    url = "/posts"
+    weight = 20
+[[menu.main]]
+    name = "📄 个人简历"
+    url = "/resume"
+    weight = 30
+[[menu.main]]
+    name = "📊 归档"
+    url = "/archives"
+    weight = 40
