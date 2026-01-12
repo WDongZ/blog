@@ -5,6 +5,7 @@ theme = 'PaperMod'
 
 [params]
     mainSections = ["posts", "projects"]
+    math = true
 
 [params.homeInfoParams]
     Title = "你好，我是赵伟栋 (Weidong Zhao) 👋"
