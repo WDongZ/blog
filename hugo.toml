@@ -7,7 +7,7 @@ theme = 'PaperMod'
     mainSections = ["posts", "projects"]
 
 [params.profileMode]
-        enabled = false # 我们不需要全屏模式，只需要它的头像逻辑
+        enabled = true # 我们不需要全屏模式，只需要它的头像逻辑
         imageUrl = "/blog/avatar.png" # 注意：这里同样要加上 /blog/ 前缀
         imageTitle = "WDongZ 的头像"
         imageWidth = 120  # 头像宽度
@@ -16,20 +16,20 @@ theme = 'PaperMod'
 [params.homeInfoParams]
     Title = "你好，我是赵伟栋 (Weidong Zhao) 👋"
     Content = """
-<div class="home-info">
-    <img src="/blog/avatar.png" alt="Avatar">
-    <div class="first-entry">
-        <strong>南方科技大学 '22 | National University of Singapore (NGNE) '27</strong><br>
-        <strong>专注下一代游戏技术：计算机图形学 (CG) & 游戏 AI (LLM-driven)</strong><br><br>
+**南方科技大学 '22 | National University of Singapore (NGNE) '27**
+**专注下一代游戏技术：计算机图形学 (CG) & 游戏 AI (LLM-driven)**
 
-        - 🛠 **核心栈：** 精通 C++/C#，深度实践 Unity/UE 引擎，熟悉渲染管线优化与物理仿真。
-        - 🧠 **AI 探索：** 致力于将 LLM 与生成式 AI 落地于交互式 Agent，探索 NPC 决策系统的新范式。
-        - 🎓 **学术：** 扎实的计算机科学基础，主修计算机图形学、游戏设计、分布式系统等核心课。
-        - 🔍 **目标：** 寻找 2027 届游戏开发（客户端/引擎/AI）或算法类实习机会。
+---
 
-        > <i>"以工程思维解决复杂问题，以极客精神探索游戏边界。"</i>
-    </div>
-</div>
+- 🛠 **核心栈**：精通 C++/C#，深度实践 Unity/UE 引擎，熟悉渲染管线优化与物理仿真
+- 🧠 **AI 探索**：致力于将 LLM 与生成式 AI 落地于交互式 Agent，探索 NPC 决策系统新范式
+- 🎓 **学术背景**：扎实的 CS 基础，主修图形学、游戏开发、分布式系统等核心课程
+- 🔍 **意向**：寻找 2027 届游戏开发（客户端/引擎/AI）或算法类实习机会
+
+> *“以工程思维解决复杂问题，以极客精神探索游戏边界。”*
+
+---
+欢迎阅读我的项目深度复盘与技术笔记。
 """
 
 [params.label]
