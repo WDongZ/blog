@@ -1,0 +1,5 @@
+.profile_inner img {
+    border-radius: 50%; /* 让头像变圆 */
+    border: 2px solid #ddd; /* 加一个浅色边框 */
+    padding: 5px;
+}

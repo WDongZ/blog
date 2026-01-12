@@ -6,6 +6,13 @@ theme = 'PaperMod'
 [params]
     mainSections = ["posts", "projects"]
 
+[params.profileMode]
+        enabled = false # 我们不需要全屏模式，只需要它的头像逻辑
+        imageUrl = "/blog/avatar.png" # 注意：这里同样要加上 /blog/ 前缀
+        imageTitle = "WDongZ 的头像"
+        imageWidth = 120  # 头像宽度
+        imageHeight = 120 # 头像高度
+        
 [params.homeInfoParams]
     Title = "你好，我是赵伟栋 👋"
     Content = """
@@ -19,6 +26,11 @@ theme = 'PaperMod'
     
     欢迎阅读我的项目深度复盘与技术笔记。
     """
+
+[params.label]
+    text = "WDongZ"
+    icon = "/blog/avatar.png"
+    iconHeight = 35 # 这里是导航栏左上角的小头像
 
 [[params.socialIcons]]
     name = "github"
