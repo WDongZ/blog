@@ -1,6 +1,7 @@
 ---
 title: "技术复盘：从零构建以撒式 2D Roguelike 框架"
 date: 2026-01-12
+weight: 1
 description: "基于 Unity 实现的类以撒随机地牢与道具系统开发实录"
 # 下面是 PaperMod 主题的标准封面写法
 cover:
