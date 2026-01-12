@@ -1,8 +1,9 @@
-+++
-date = '2026-01-12T15:20:23+08:00'
-draft = true
-title = 'Roguelike Dev Log'
-+++
+---
+date: 2026-01-12
+title: "Roguelike Dev Log"
+description:"技术复盘：从零构建以撒式 2D Roguelike 框架"
+cover: image:"content/projects/static/image/boss.png"
+---
 
 # 技术复盘：从零构建以撒式 2D Roguelike 框架
 
