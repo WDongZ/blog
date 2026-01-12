@@ -66,6 +66,7 @@ Roguelike 的灵魂在于道具堆叠。为了避免 `if-else` 爆炸，我采�
 - **性能优化：** 针对大量子弹同屏的情况，引入了简单的**对象池 (Object Pooling)**，有效避免了频繁 Instantiate/Destroy 带来的内存抖动。
 
 ![光影与地图](image/map.png)
+
 ------
 
 ## 🧠 难点攻克：如何解决房间重叠？
