@@ -2,8 +2,6 @@ baseURL = "https://wdongz.github.io/blog/"
 languageCode = 'en-us'
 title = 'Zhao Weidong Home Page'
 theme = 'PaperMod'
-canonifyURLs = true   # 自动将相对路径转换为绝对路径
-relativeURLs = false  # 建议保持为 false
 
 [params.homeInfoParams]
     Title = "你好，我是赵伟栋 👋"
