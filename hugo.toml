@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'Zhao Weidong's Home Page'
+title = 'Zhao Weidong Home Page'
 theme = 'PaperMod'
 
 [params.homeInfoParams]
