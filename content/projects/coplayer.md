@@ -5,8 +5,6 @@ draft: false
 tags: ["Unity", "AI", "Reverse Planning"]
 ---
 
-# 基于逆向规划的玩家意图识别系统：在 Unity 中的实现与架构分析
-
 在合作型游戏或复杂交互系统中，赋予 AI 智能体“心理理论”（Theory of Mind）能力是提升交互体验的关键。这种能力使 AI 能够通过观察玩家的低级操作（Action），逆向推断其高级意图（Goal）。本文将深入解析在 Unity 引擎中实现的一套逆向规划（Inverse Planning）系统，探讨其如何通过数学建模与启发式搜索实现高效的玩家行动预测。
 
 ---
