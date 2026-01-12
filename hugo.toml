@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'Zhao Weidong Home Page'
 theme = 'PaperMod'
 
+[params]
+    mainSections = ["posts", "projects"]
+
 [params.homeInfoParams]
     Title = "你好，我是赵伟栋 👋"
     Content = """
