@@ -43,7 +43,7 @@ Roguelike 的灵魂在于道具堆叠。为了避免 `if-else` 爆炸，我采�
   - **计算管道：** 玩家射击时，子弹会经过一个 `ModifierChain`，依次应用当前所有道具的效果。
   - **解耦：** 道具系统与玩家逻辑完全解耦，新增一个道具只需新建一个配置文件，无需修改一行代码。
 
-![子弹系统](/blog/image/bullet.png)
+![子弹系统](image/bullet.png)
 
 ------
 
@@ -55,7 +55,7 @@ Roguelike 的灵魂在于道具堆叠。为了避免 `if-else` 爆炸，我采�
 - **Boss AI：** 引入了**权重随机行为机制**。Boss 会根据当前血量百分比切换阶段（Phase），并根据玩家距离权重触发不同的技能组。
 - **视觉反馈：** 实现了集中目标相机抖动，提升了游戏的交互打击感。
 
-![Boss系统](/blog/image/boss.png)
+![Boss系统](image/boss.png)
 
 ------
 
@@ -65,7 +65,7 @@ Roguelike 的灵魂在于道具堆叠。为了避免 `if-else` 爆炸，我采�
 - **小地图 (Minimap)：** 使用了独立的相机渲染层级（Layer Mask）结合 **Render Texture**。
 - **性能优化：** 针对大量子弹同屏的情况，引入了简单的**对象池 (Object Pooling)**，有效避免了频繁 Instantiate/Destroy 带来的内存抖动。
 
-![光影与地图](/blog/image/map.png)
+![光影与地图](image/map.png)
 ------
 
 ## 🧠 难点攻克：如何解决房间重叠？
