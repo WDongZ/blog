@@ -1,5 +1,36 @@
-.profile_inner img {
-    border-radius: 50%; /* 让头像变圆 */
-    border: 2px solid #ddd; /* 加一个浅色边框 */
-    padding: 5px;
+/* 针对首页欢迎区域的容器 */
+.home-info {
+    display: flex;
+    flex-direction: row-reverse; /* 头像在右，文字在左 */
+    align-items: center;         /* 垂直居中 */
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 30px;                   /* 文字与头像的间距 */
+}
+
+/* 欢迎语文字区域 */
+.home-info .first-entry {
+    flex: 1;
+    text-align: left;           /* 文字左对齐 */
+}
+
+/* 头像图片样式 */
+.home-info img {
+    width: 150px;               /* 根据需要调整头像大小 */
+    height: 150px;
+    border-radius: 50%;         /* 圆形头像 */
+    object-fit: cover;
+    border: 3px solid var(--border); /* 适配主题边框颜色 */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* 移动端适配：屏幕太窄时自动切回垂直布局 */
+@media screen and (max-width: 768px) {
+    .home-info {
+        flex-direction: column;
+        text-align: center;
+    }
+    .home-info .first-entry {
+        text-align: center;
+    }
 }
