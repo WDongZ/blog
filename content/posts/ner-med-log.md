@@ -121,3 +121,5 @@ outputs = model.generate(
 - **引入 RAG 机制**：结合《中国药典》等外部权威知识库，通过检索增强生成来纠正模型在低频实体（如：中医治则）上的幻觉。
 - **混合损失函数设计**：探索在生成式损失（Cross-Entropy）中引入序列标注约束，以平衡精确率与召回率。
 - **多任务学习**：将 NER 任务与实体关系抽取（RE）同步微调，利用任务间的相关性辅助实体边界界定。
+
+- **GitHub Repo:** [点击跳转到项目仓库](https://github.com/WDongZ/NER_Chinese_Medicine)
