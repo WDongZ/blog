@@ -34,6 +34,9 @@ theme = 'PaperMod'
     iconHeight = 35 # 这里是导航栏左上角的小头像
 
 [[params.socialIcons]]
+    name = "CV"           # PaperMod 会自动匹配简历图标
+    url = "/blog/resume.pdf"
+[[params.socialIcons]]
     name = "github"
     url = "https://github.com/WDongZ"
 [[params.socialIcons]]
@@ -49,6 +52,6 @@ theme = 'PaperMod'
     url = "/posts"
     weight = 20
 [[menu.main]]
-    name = "📄 个人简历"
-    url = "/resume"
+    name = "Resume"
+    url = "/blog/resume.pdf" 
     weight = 30
