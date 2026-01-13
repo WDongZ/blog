@@ -30,12 +30,12 @@ theme = 'PaperMod'
 
 [params.label]
     text = "WDongZ"
-    icon = "/blog/avatar.png"
+    icon = "/avatar.png"
     iconHeight = 35 # 这里是导航栏左上角的小头像
-
+    
 [[params.socialIcons]]
     name = "CV"           # PaperMod 会自动匹配简历图标
-    url = "/blog/resume.pdf"
+    url = "/resume.pdf"
 [[params.socialIcons]]
     name = "github"
     url = "https://github.com/WDongZ"
@@ -52,6 +52,6 @@ theme = 'PaperMod'
     url = "/posts"
     weight = 20
 [[menu.main]]
-    name = "Resume"
-    url = "/blog/resume.pdf" 
+    name = "📄 个人简历"
+    url = "/resume.pdf"
     weight = 30
