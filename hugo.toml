@@ -30,7 +30,7 @@ theme = 'PaperMod'
 
 [params.label]
     text = "WDongZ"
-    icon = "/avatar.png"
+    icon = "/blog/avatar.png"
     iconHeight = 35 # 这里是导航栏左上角的小头像
     
 [[params.socialIcons]]
